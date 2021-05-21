@@ -1,0 +1,180 @@
+body{
+  text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+  /*- - - - title-Section- - - -*/
+
+#title {
+  padding: 0 15%;
+  padding-top: 1%;
+  background-size: 40%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.upper-one {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  padding: 3% 0 5% 0;
+  color: #fff;
+}
+
+.download-button {
+  margin: 0 2%;
+}
+
+.iphone-image {
+  width: 80%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+
+/* - - - -Color-Section - - - -*/
+
+.coloured-section {
+  background-color: #ff4c68;
+}
+
+.white-section{
+ background-color: #fff;
+}
+
+/*- - - - Features-Section - - - -*/
+
+#features {
+  padding: 6% 15% 5% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-5x {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.para {
+  color: #8f8f8f;
+  padding: 0 10%;
+}
+
+/* - - - -Testimonials-Section - - - -*/
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.testi {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 3% 25% 5% 25%;
+}
+/* - - - -Press-section - - - -*/
+
+#press {
+  background-color: #ef8172;
+}
+
+.proves {
+  padding: 2% 1% 6% 1%;
+  width: 17%;
+}
+
+/* - - - -Pricing-section - - - -*/
+
+#pricing {
+  padding: 6% 15% 5% 15%;
+}
+
+.body-img {
+  padding: 2% 3%;
+}
+
+/* - - - -Media-Query - - - -*/
+
+@media(max-width: 1028px)
+{
+  .First-text {
+    text-align: center;
+  }
+
+  .iphone-image {
+    transform: rotate(0);
+    padding-bottom: 90px;
+    position: relative;
+    left: 172px;
+    bottom: 2000px;
+  }
+}
+
+@media(max-width: 500px) {
+  .First-text {
+    text-align: center;
+  }
+
+  .iphone-image {
+    transform: rotate(0);
+    padding-bottom: 90px;
+    position: relative;
+    left: 40px;
+    bottom: 2000px;
+  }
+}
+
+/* - - - -Call to Action-Section - - - -*/
+
+#cta {
+  padding: 4% 20%;
+}
+
+.last-one {
+  font-size: 50px;
+  font-weight: 10px;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.last-button {
+  margin: 1%;
+  margin-bottom: 6%;
+}
+
+/* - - - -Footer-Section - - - -*/
+
+#footer {
+  color: #8f8f8f;
+  font-family: sans-serif;
+  padding: 10px;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+  .last-anchor{
+    color: #1b1a17;
+     padding:  10px;
+  }
+  .Copyright{
+    padding-top: 1%;
+  }
+}
